@@ -1,0 +1,5 @@
+.element::after {
+    content: attr(data-author);
+    font-weight: bold;
+    color: green;
+   }
